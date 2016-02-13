@@ -1,4 +1,4 @@
-var token = '160579290:AAENI_8O1JMXwkWR30VJ9Bnjo6wLZlZI0jk';
+var token = process.env.TOKEN;
 
 var Bot = require('node-telegram-bot-api');
 var bot;
